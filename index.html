@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ICT PRACTICE EXERCISE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+       
+        body {
+        	background-color: #fff0f5;
+            font-family: 'Fredoka', sans-serif;
+            color: #cc0066;
+        }
+        
+        h1 {
+            color: #ff3399;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        button {
+            background-color: #ff99cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
+        }
+
+        button:hover {
+            background-color: #ff66b2;
+        }
+
+        .container {
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px dashed #ff99cc; 
+            border-radius: 30px; 
+            background-color: #ffe6f2; 
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1); 
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+	<script>
+		document.write("Compute the following given a=100 b=10");
+	</script>
+
+</div>
+
+<div class="container">
+
+	<script>
+		var a, b, ExpResult;
+		a = 100;
+		b = 10;
+		ExpResult = a ** b;
+	</script>
+	
+</div>
+
+<div class="container">
+
+	<h1>Computation for 100 to the power 10</h1>
+	<p id="Answer1"></p>
+
+	<button type="button" onclick="document.getElementById('Answer1').innerHTML= 'Exponent Answer is: ' + ExpResult;">The Answer</button>
+
+</div>
+
+<div class="container">
+
+	<script>
+		var a, b, ExpResult;
+		a = 100;
+		b = 10;
+		ExpResult = a ** b;
+	</script>
+
+</div>
+
+<div class="container">
+
+	<h1>Is a Greater than b?</h1>
+
+	<script>
+		var a, b, AndResult;
+		a = 100;
+		b = 10;
+		AndResult = a > b;
+	</script>
+
+	<p id="Answer2"></p>
+	<button type="button" onclick="document.getElementById('Answer2').innerHTML= 'Exponent Answer is: ' + AndResult;">The Answer</button>
+
+</div>
+
+<div class="container">
+
+	<h1>Is this statement correct (a <= b) && (a >= b)?</h1>
+
+	<script>
+		var a, b, ExpResult2;
+		a = 100;
+		b = 10;
+		let y = a <= b; 
+		let x = a >= b; 
+		ExpResult2 = y && x; 
+	</script>
+
+	<p id="Answer3"></p>
+	<button type="button" onclick="document.getElementById('Answer3').innerHTML= 'Result is: ' + ExpResult2;">The Answer</button>
+
+</div>
+
+</body>
+</html>
